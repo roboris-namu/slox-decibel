@@ -1,6 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 마이크 권한 (소음 측정용) -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    
     <application
-        android:label="slox_decibel"
+        android:label="SLOX Decibel"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

@@ -1,5 +1,5 @@
 name: slox_decibel
-description: "A new Flutter project."
+description: "SLOX Decibel - Sound Level Meter App"
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -31,6 +31,16 @@ dependencies:
   flutter:
     sdk: flutter
 
+  # 소음 측정 패키지
+  noise_meter: ^5.0.2
+  
+  # 권한 관리
+  permission_handler: ^11.3.1
+  
+  # 다국어 지원
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.18.1
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
